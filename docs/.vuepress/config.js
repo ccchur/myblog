@@ -4,7 +4,7 @@ module.exports = {
     head: [
         ["link", { rel: "icon", href: "143.png" }],
     ],
-    title: '浪漫理想主义123',
+    title: '浪漫理想主义',
     description: '愿阳光打在脸上，温暖留在心里',
     themeConfig: {
         logo: '143.png', 
