@@ -2,7 +2,7 @@
 home: true
 heroImage: /143.png
 actionText: 开始 →
-actionLink: /随风集/这是一篇
+actionLink: 出发吧/写点什么
 features:
 
 

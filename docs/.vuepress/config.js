@@ -1,3 +1,5 @@
+const sidebarConfig = require('./sidebar.config.json')
+
 module.exports = {
     base: "/myBlog/",
     // 添加浏览器图标
@@ -25,15 +27,6 @@ module.exports = {
             //     ]
             // },
         ],
-        sidebar: {
-            '/随风集/': [
-                
-                {
-                    title: "随风",
-                    children: ['这是一篇']
-                }
-            ],
-        },
-        
+        sidebar : sidebarConfig
     }
 }
