@@ -1,1 +1,19 @@
-[{"title":"思绪收藏室","children":[]},{"title":"有言在先","children":[{"title":"写点什么.md","path":"/有言在先/写点什么.md"}]},{"title":"讲个故事","children":[]}]
+[
+    {
+        "title": "有言在先",
+        "children": [
+            {
+                "title": "写点什么.md",
+                "path": "/有言在先/写点什么.md"
+            }
+        ]
+    },
+    {
+        "title": "思绪收藏室",
+        "children": []
+    },
+    {
+        "title": "讲个故事",
+        "children": []
+    }
+]
