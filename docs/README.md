@@ -2,7 +2,7 @@
 home: true
 heroImage: /143.png
 actionText: 开始 →
-actionLink: 出发吧/写点什么
+actionLink: 有言在先/写点什么
 features:
 
 
