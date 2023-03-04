@@ -10,6 +10,7 @@ function gen_sidebar_config(dir_path, ref, parent_ref, parent_router_path) {
         if (file_or_dir_list) {
             for (let index = 0; index < file_or_dir_list.length; index++) {
                 const file_or_dir_name = file_or_dir_list[index];
+                console.log("名字", file_or_dir_name);
                 const current_path = path.join(dir_path, file_or_dir_name)
                 const current_stat = fs.statSync(current_path)
                 if (/^\./.test(file_or_dir_name)) {
@@ -28,7 +29,7 @@ function gen_sidebar_config(dir_path, ref, parent_ref, parent_router_path) {
                         continue
                     }
                     const file = {
-                        title: file_or_dir_name,
+                        title: file_or_dir_name.replace(".md", ""),
                         path: current_router_path
                     }
                     ref.push(file)
