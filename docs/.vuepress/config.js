@@ -1,10 +1,10 @@
 const sidebarConfig = require('./sidebar.config.json')
 
 module.exports = {
-    base: "/myBlog/",
+    base: "/myblog/",
     // 添加浏览器图标
     head: [
-        ["link", { rel: "icon", href: "143.png" }],
+        ["link", { rel: "icon", href: "favicon.ico" }],
     ],
     title: '浪漫理想主义',
     description: '愿阳光打在脸上，温暖留在心里',
@@ -27,6 +27,7 @@ module.exports = {
             //     ]
             // },
         ],
-        sidebar : sidebarConfig
+        sidebar: sidebarConfig,
+        lastUpdated: '上次更新'
     }
 }
