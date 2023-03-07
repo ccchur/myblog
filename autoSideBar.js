@@ -63,3 +63,5 @@ fs.writeFile('./docs/.vuepress/sidebar.config.json', sidebar_json, (err) => {
     }
     console.log('🎉🎉🎉 sidebar 配置已生成 🎉🎉🎉')
 })
+// run code:
+// node autoSideBar
