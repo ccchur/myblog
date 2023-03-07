@@ -47,6 +47,7 @@ module.exports = {
           appKey: 'yPhtBqfHictmjlhIb9JRB3Fb',
         //   visitor: true // 阅读量统计
           placeholder: "上方输入昵称（可选），这里输入评论",
+          avatar:'monsterid'
         }
       }
     ]
