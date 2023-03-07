@@ -9,7 +9,7 @@ module.exports = {
     title: '浪漫理想主义',
     description: '愿阳光打在脸上，温暖留在心里',
     themeConfig: {
-        logo: '143.png', 
+        logo: '/143.png', 
         nav: [
             {
                 text: '思绪收藏室',
@@ -46,6 +46,7 @@ module.exports = {
           appId: 'uLZNHyTMS2yhQUQqdekgaw7a-gzGzoHsz',
           appKey: 'yPhtBqfHictmjlhIb9JRB3Fb',
         //   visitor: true // 阅读量统计
+          placeholder: "上方输入昵称（可选），这里输入评论",
         }
       }
     ]
