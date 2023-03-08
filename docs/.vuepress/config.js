@@ -22,7 +22,11 @@ module.exports = {
             {
                 text: '观书有感',
                 link: '/4.观书有感/《也许你该找个人谈谈》读后感.md'
-            },
+          },
+          {
+            text: '摘录',
+            link: '/5.摘录/摘录.md'
+            }
             
             // {
             //     text: '学习',
@@ -53,3 +57,4 @@ module.exports = {
     ]
   ]
 }
+
