@@ -1,7 +1,9 @@
 const sidebarConfig = require('./sidebar.config.json')
 
 module.exports = {
-    base: "/myblog/",
+  base: "/myblog/",
+  cache: false,
+  extraFiles: ['.vuepress/dist'],
     // 添加浏览器图标
     head: [
         ["link", { rel: "icon", href: "favicon.ico" }],
@@ -50,11 +52,12 @@ module.exports = {
           appId: 'uLZNHyTMS2yhQUQqdekgaw7a-gzGzoHsz',
           appKey: 'yPhtBqfHictmjlhIb9JRB3Fb',
         //   visitor: true // 阅读量统计
+          // path: window.location.pathname,
           placeholder: "上方输入昵称（可选），这里输入评论",
           avatar:'monsterid'
         }
       }
-    ]
+      ]
   ]
 }
 
