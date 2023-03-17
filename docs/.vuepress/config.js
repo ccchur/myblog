@@ -28,7 +28,11 @@ module.exports = {
           {
             text: '摘录',
             link: '/5.摘录/摘录.md'
-            }
+          },
+          {
+            text: '粗通文墨',
+            link: '/6.粗通文墨/瞎写1.md'
+          }
             
             // {
             //     text: '学习',
